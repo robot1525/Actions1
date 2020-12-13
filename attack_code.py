@@ -16,6 +16,8 @@ f = open("data", "r")
 send_data = f.read()
 f.close()
 
+print("!!!!!!!!!!")
+
 # 4. 发送数据到指定的电脑上的指定程序中
 volume_list = [v for v in range(10, 35, 5)]
 for v in volume_list:
